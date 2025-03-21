@@ -6,7 +6,6 @@ const FULL_HEART = '♥'
 document.addEventListener("DOMContentLoaded", () => {
   const hearts = document.querySelectorAll(".like-glyph");
   const modal = document.getElementById("modal");
-// Hide modal on page load
   modal.classList.add("hidden");
 
   hearts.forEach(heart => {
